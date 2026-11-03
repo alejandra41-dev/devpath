@@ -1,10 +1,10 @@
 <?php
 // Credenciales de la base de datos
 // Protegido por .htaccess — nunca subir a GitHub
-$servidor   = "sql107.infinityfree.com";
-$usuario    = "if0_41275366";
-$password   = "2pepas2kuromis";
-$base_datos = "if0_41275366_dev_path";
+$servidor   = "b2j2yfgnf05udfzh48s1-mysql.services.clever-cloud.com";
+$usuario    = "u85wvagwpilqecs8";
+$password   = "uKlzO2F9jpwwdCFEY1Io";
+$base_datos = "b2j2yfgnf05udfzh48s1";
 
 $conexion = mysqli_connect($servidor, $usuario, $password, $base_datos);
 mysqli_set_charset($conexion, "utf8");
